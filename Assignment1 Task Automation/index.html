@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Task Automation Form</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Form for user input with unique identifier "taskForm" -->
     <form id="taskForm">
+        <!-- Input field for Field 1 with corresponding label -->
         <label for="input1">Field 1:</label>
         <input type="text" id="input1" name="input1">
 
+        <!-- Input field for Field 2 with corresponding label -->
         <label for="input2">Field 2:</label>
         <input type="text" id="input2" name="input2">
 
+        <!-- Input field for Field 3 with corresponding label -->
         <label for="input3">Field 3:</label>
         <input type="text" id="input3" name="input3">
 
+        
         <button type="button" onclick="submitForm()">Submit</button>
     </form>
 
+    <!-- Container for displaying results with unique identifier "results" -->
     <div id="results" class="results-container"></div>
 
+    <!-- Linking JavaScript file for dynamic behavior -->
     <script src="script.js"></script>
 </body>
+
 </html>
