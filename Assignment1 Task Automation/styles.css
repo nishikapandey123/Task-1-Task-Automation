@@ -1,7 +1,7 @@
 /* Global styling for the entire page */
 body {
-    font-family: 'Arial', sans-serif;   /* Set the font family for the entire document */
-    background-color: #f4f4f4;          /* Set a light background color */
+    font-family: 'Arial', sans-serif;   
+    background-color: #f4f4f4;          
     margin: 0;                           /* Remove default margin */
     padding: 0;                          /* Remove default padding */
 }
@@ -10,10 +10,10 @@ body {
 form {
     max-width: 400px;                    /* Set the maximum width of the form container */
     margin: 20px auto;                   /* Center the form horizontally with top and bottom margin */
-    background-color: #fff;              /* Set the background color of the form */
-    padding: 20px;                       /* Add padding to the form */
-    border-radius: 5px;                  /* Add rounded corners to the form */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+    background-color: #fff;              
+    padding: 20px;                       
+    border-radius: 5px;                  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 /* Styling for form labels */
@@ -24,8 +24,8 @@ label {
 
 /* Styling for form input fields */
 input {
-    width: 100%;                        /* Make input fields take up 100% width */
-    padding: 8px;                       /* Add padding to input fields */
+    width: 100%;                        
+    padding: 8px;                       
     margin-bottom: 16px;               /* Add bottom margin for spacing between input fields */
     box-sizing: border-box;             /* Include padding and border in the total width/height */
 }
@@ -42,20 +42,20 @@ button {
 
 /* Styling for the results container */
 .results-container {
-    margin-top: 20px;                   /* Add top margin to separate results from the form */
+    margin-top: 20px;                   
     padding: 20px;                      /* Add padding to the results container */
-    background-color: #fff;             /* Set the background color of the results container */
+    background-color: #fff;             
     border-radius: 5px;                 /* Add rounded corners to the results container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
 }
 
 /* Styling for individual paragraphs inside the results container */
 .results-container p {
-    margin: 8px 0;                      /* Add margin for spacing between paragraphs */
-    padding: 8px;                       /* Add padding to each paragraph */
-    border: 1px solid #ddd;             /* Add a border to each paragraph */
-    border-radius: 5px;                 /* Add rounded corners to each paragraph */
-    background-color: #f9f9f9;          /* Set the background color of each paragraph */
+    margin: 8px 0;                      
+    padding: 8px;                       
+    border: 1px solid #ddd;             
+    border-radius: 5px;                 
+    background-color: #f9f9f9;          
 }
 
 /* Additional styling for dynamically colored paragraphs */
