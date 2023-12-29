@@ -1,0 +1,68 @@
+/* Global styling for the entire page */
+body {
+    font-family: 'Arial', sans-serif;   /* Set the font family for the entire document */
+    background-color: #f4f4f4;          /* Set a light background color */
+    margin: 0;                           /* Remove default margin */
+    padding: 0;                          /* Remove default padding */
+}
+
+/* Styling for the form container */
+form {
+    max-width: 400px;                    /* Set the maximum width of the form container */
+    margin: 20px auto;                   /* Center the form horizontally with top and bottom margin */
+    background-color: #fff;              /* Set the background color of the form */
+    padding: 20px;                       /* Add padding to the form */
+    border-radius: 5px;                  /* Add rounded corners to the form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Styling for form labels */
+label {
+    display: block;                     /* Display labels as blocks for proper spacing */
+    margin-bottom: 8px;                 /* Add bottom margin for spacing between labels */
+}
+
+/* Styling for form input fields */
+input {
+    width: 100%;                        /* Make input fields take up 100% width */
+    padding: 8px;                       /* Add padding to input fields */
+    margin-bottom: 16px;               /* Add bottom margin for spacing between input fields */
+    box-sizing: border-box;             /* Include padding and border in the total width/height */
+}
+
+/* Styling for the form submit button */
+button {
+    background-color: #4caf50;          /* Set the background color of the button */
+    color: #fff;                        /* Set the text color of the button */
+    padding: 10px 15px;                 /* Add padding to the button */
+    border: none;                       /* Remove default button border */
+    border-radius: 5px;                 /* Add rounded corners to the button */
+    cursor: pointer;                    /* Change cursor to pointer on hover */
+}
+
+/* Styling for the results container */
+.results-container {
+    margin-top: 20px;                   /* Add top margin to separate results from the form */
+    padding: 20px;                      /* Add padding to the results container */
+    background-color: #fff;             /* Set the background color of the results container */
+    border-radius: 5px;                 /* Add rounded corners to the results container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+/* Styling for individual paragraphs inside the results container */
+.results-container p {
+    margin: 8px 0;                      /* Add margin for spacing between paragraphs */
+    padding: 8px;                       /* Add padding to each paragraph */
+    border: 1px solid #ddd;             /* Add a border to each paragraph */
+    border-radius: 5px;                 /* Add rounded corners to each paragraph */
+    background-color: #f9f9f9;          /* Set the background color of each paragraph */
+}
+
+/* Additional styling for dynamically colored paragraphs */
+.results-container p:nth-child(odd) {
+    background-color: #e0f7fa; /* Light Blue */   /* Light blue background for odd paragraphs */
+}
+
+.results-container p:nth-child(even) {
+    background-color: #ffe0b2; /* Light Orange */ /* Light orange background for even paragraphs */
+}
