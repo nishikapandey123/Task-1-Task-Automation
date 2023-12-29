@@ -45,7 +45,6 @@ The Node.js script (`taskAutomation.js`) automates tasks by creating a directory
 |-- README.md
 
 ## Credits
-
 - Created by Nishika Pandey.
 
 Feel free to customize this README.md file based on your specific project details and requirements. Include additional information, such as how to contribute, known issues, or any other relevant details.
